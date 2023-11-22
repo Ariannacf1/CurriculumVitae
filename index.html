@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Curriculum</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="img/Icono.png">
+    <script src="//code.tidio.co/9zgpaogqojnn3ofxawxjjwq35rmqyjcy.js" async></script>
+</head>
+<body>
+    <!-- Menu -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Diego</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#habilidades" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- Inicio -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/perf.PNG" alt="">
+            </div>
+            <h1>DIEGO ORTIZ</h1>
+            <h2>FRONT - END/ WEB DEVELOPER</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-x"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--Sobre mi -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Diego ortiz.</span> Programador y amante de la tecnologia, 
+                me encanta aprender, enfrentar nuevos restos, me gusta ayudar y trabajar 
+                en equipo. Soy experto en la creacion, maquetacion de campañas de Email 
+                Marketing y  manejo de plataformas para el envio de las mismas.</p>
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Teléfono</strong>
+                            3213101495
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            dfortiz114@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Bogota Colombia.
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FRONT - END/ WEB DEVELOPER</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-motorcycle"></i>
+                            <span>MOTOS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <a class="fa-solid fa-download" href= "CV.pdf" download="Curriculum"></a>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!-- Habilidades Profesionales -->
+                <div class="col">
+                    <h3>Habilidades profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Gestión de Proyectos</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div> 
+                    </div>    
+                </div>
+                <!-- Habilidades Tecnicas -->
+                <div class="col">
+                    <h3>Habilidades técnicas</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>                  
+    </section>
+
+    <!-- Curriculum -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Ingenieria de Software</h4>
+                        <span class="casa">Fundación Universitaria Compensar</span>
+                        <span class="fecha">Actualmente</span>
+                        <p> Integra las etapas que comprenden el ciclo de vida de construcción de
+                            software como requerimientos, análisis, diseño, arquitectura,
+                            implementación, pruebas y puesta en marcha, así como en
+                            administrar tiempos.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Análisis y Desarrollo de Sistemas de Información</h4>
+                        <span class="casa">CDA SENA, Tecnologo</span>
+                        <span class="fecha">2015</span>
+                        <p>Ejecuta el proceso integral (análisis, diseño, implementación, pruebas y ajustes) de generación de sistemas de información, para la sitematización o automatización de procesos.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Cursos Adicionales</h4>
+                        <span class="casa">Platzi, Udemy, Google, Hubspot</span>
+                        <span class="fecha">2019 - 2022</span>
+                        <p>"Curso de Email Marketing" (2022)
+                           "Curos Porfesional de Algular"(2022)
+                           "Curso Javascript 2021" (2021)
+                           "Certificación en Inbound Marketing"(2021)
+                        <br>"Adobe Photoshop e Ilustrator"(2019) </br>
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia Laboral</h3>
+                    <div class="item der">
+                        <h4>Front -End / Developer</h4>
+                        <span class="casa">DDB Colombia</span>
+                        <span class="fecha">2018- Actualmente</span>
+                        <p>Creación de lading pages, inforgrafias y páginas internas.
+                        <br>Desarrollo y optimizacón de campañas de email en plataformas como: Camping Monitor, 
+                        Emblue, Masivapp, Exacttarget.</br>
+                        Cuentas:Claro Colombia, Bancolombia, Auteco, EPM, MasterCard...</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Web Master</h4>
+                        <span class="casa">ID Interactive</span>
+                        <span class="fecha">2016 - 2017</span>
+                        <p>Manejo de CMS para la actualización y creación de contenido. Creacion de landings.
+                            <br>Maquetacion y envio de Campañas de email Marketing.</br>
+                            Cuentas:Claro Colombia, Novartis,ACH,Zuana,The North Face.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Correo electronico">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/contacto.PNG" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Bogota Colombia.
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: 3213101495
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: dfortiz@ucompensar.edu.co
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--fin pagina-->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-x"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
